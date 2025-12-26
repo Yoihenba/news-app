@@ -15,7 +15,7 @@ html, body {
 }
 
 .light-theme {
-    --background: url("https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg");
+    --background:#c8cacc;
     --primary: #c8cacc;
     --secondary: #0F172A;
     --txt: #000;
