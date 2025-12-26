@@ -11,7 +11,7 @@ function SavedNews() {
 
   const fetchSavedArticles = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/saved-news');
+      const response = await axios.get('https://news-app-auab.onrender.com/saved-news');
       setSavedArticles(response.data.data); 
     } catch (error) {
       console.error('Error fetching saved articles:', error);

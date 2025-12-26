@@ -5,7 +5,7 @@ function Card(props) {
 
   const handleSave = async () => {
     try {
-      await axios.post('http://localhost:3000/save-article', {
+      await axios.post('https://news-app-auab.onrender.com/save-article', {
         title: props.title,
         description: props.description,
         url: props.url,
